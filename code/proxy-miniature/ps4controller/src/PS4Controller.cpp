@@ -26,6 +26,8 @@
 #include <opendavinci/odcore/strings/StringToolbox.h>
 
 #include "PS4Controller.h"
+#include "cluon-complete.hpp"
+#include "messages.hpp"
 
 #if !defined(WIN32) && !defined(__gnu_hurd__) && !defined(__APPLE__)
 #include <linux/joystick.h>
